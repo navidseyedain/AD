@@ -1,0 +1,22 @@
+package jopshen;
+
+import javax.swing.JOptionPane;
+
+
+public class JOPSHEN {
+
+    
+    public static void main(String[] args) {
+        String name;
+        name =JOptionPane.showInputDialog("Name");
+        String famili;
+        famili =JOptionPane.showInputDialog("famili");
+        
+        String full;
+        full ="you are"+name+" "+famili;
+        
+        JOptionPane.showMessageDialog(null, full);
+        System.exit(0);
+    }
+    
+}
